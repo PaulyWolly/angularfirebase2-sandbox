@@ -1,55 +1,56 @@
-<!-- <div class="container"> -->
-<div class="row">
-  <div class="col-lg-3"></div>
-  <div class="col-lg-6">
-    <div id="exampleDialog" #mydialog class="dialog newsletter-dialog" tabindex="-1">
-      <div class="dialog-dialog">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3"></div>
+    <div class="col-lg-6">
+      <div id="exampleDialog" #mydialog class="dialog newsletter-dialog" tabindex="-1">
+        <div class="dialog-dialog">
 
-        <div class="dialog-content">
-              <div style="background-color: cadetblue;" class="dialog-header">
-                  <h4
-                      style="color:#fff;padding-top:20px;font-weight: 700;"
-                      class="dialog-title">Sign up for our Newsletter
-                  </h4>
-                  <button
-                      #btnClose
-                      id="btnClose"
-                      type="button"
-                      class="btn-close box-shadow"
-                      data-bs-dismiss="dialog"
-                      (click)="close()"
-                      aria-label="Close">
-                  </button>
-              </div>
-
-                <div class="dialog-body">
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Name</label>
-                        <input type="text" [(ngModel)]="name" class="form-control" id="exampleFormControlInput1" placeholder="enter name">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Personal Info</label>
-                        <textarea [(ngModel)]="personalInfo" class="form-control"  placeholder="enter some personal info" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Email</label>
-                        <input [(ngModel)]="email" class="form-control"  placeholder="enter email" id="exampleFormControlTextarea1" rows="3" />
-                    </div>
-
-                      <!-- <div class="form-control"  placeholder="timestamp" id="timestamp" ></div> -->
-
+          <div class="dialog-content">
+                <div style="background-color: cadetblue;" class="dialog-header">
+                    <h4
+                        style="color:#fff;padding-top:20px;font-weight: 700;"
+                        class="dialog-title">Sign up for our Newsletter
+                    </h4>
+                    <button
+                        #btnClose
+                        id="btnClose"
+                        type="button"
+                        class="btn-close box-shadow"
+                        data-bs-dismiss="dialog"
+                        (click)="close()"
+                        aria-label="Close">
+                    </button>
                 </div>
-                <div class="d-flex dialog-footer">
-                  <button type="button" (click)="close()" class="btn btn-secondary" data-bs-dismiss="dialog">Close</button>
-                  &nbsp;<button type="button" (click)="add()" class="btn btn-primary">Save changes</button>
-                </div>
+
+                  <div class="dialog-body">
+                      <div class="mb-3">
+                          <label for="exampleFormControlInput1" class="form-label">Name</label>
+                          <input type="text" [(ngModel)]="name" class="form-control" id="exampleFormControlInput1" placeholder="enter name">
+                      </div>
+                      <div class="mb-3">
+                          <label for="exampleFormControlTextarea1" class="form-label">Personal Info</label>
+                          <textarea [(ngModel)]="personalInfo" class="form-control"  placeholder="enter some personal info" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <div class="mb-3">
+                          <label for="exampleFormControlTextarea1" class="form-label">Email</label>
+                          <input [(ngModel)]="email" class="form-control"  placeholder="enter email" id="exampleFormControlTextarea1" rows="3" />
+                      </div>
+
+                        <!-- <div class="form-control"  placeholder="timestamp" id="timestamp" ></div> -->
+
+                  </div>
+                  <div class="d-flex dialog-footer">
+                    <button type="button" (click)="close()" class="btn btn-secondary" data-bs-dismiss="dialog">Close</button>
+                    &nbsp;<button type="button" (click)="add()" class="btn btn-primary">Save changes</button>
+                  </div>
+
+          </div>
 
         </div>
-
       </div>
     </div>
+    <div class="col-lg-3"></div>
   </div>
-  <div class="col-lg-3"></div>
 </div>
 
 
