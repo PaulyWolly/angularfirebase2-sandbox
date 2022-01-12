@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/AngularFirebase2-Sandbox",
+            "outputPath": "dist/angularfirebase2-sandbox",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -80,10 +80,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "AngularFiresbase2-Sandbox:build:production"
+              "browserTarget": "angularfiresbase2-sandbox:build:production"
             },
             "development": {
-              "browserTarget": "AngularFiresbase2-Sandbox:build:development"
+              "browserTarget": "angularfirebase2-sandbox:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -91,7 +91,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "AngularFiresbase2-Sandbox:build"
+            "browserTarget": "angularfirebase2-sandbox:build"
           }
         },
         "test": {
@@ -115,5 +115,5 @@
       }
     }
   },
-  "defaultProject": "AngularFiresbase2-Sandbox"
+  "defaultProject": "angularfirebase2-sandbox"
 }
