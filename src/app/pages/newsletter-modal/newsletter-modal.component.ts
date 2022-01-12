@@ -16,7 +16,7 @@ export class NewsletterModalComponent implements OnInit {
   name : any;
   email: any;
   personalInfo : any;
-  timestamp: any;
+  //timestamp: any;
   editObj : any;
 
   isShown: boolean = false;
@@ -76,14 +76,14 @@ export class NewsletterModalComponent implements OnInit {
 
     //createdAt : store.FieldValue.serverTimestamp();
 
-    console.log('Timestamp: ' +  this.timestamp);
+    //console.log('Timestamp: ' +  this.timestamp);
     if(this.editObj){
       this.store.collection('list')
         .doc(this.editObj.id)
-        .update({name : this.name, personalInfo : this.personalInfo, email : this.email, timestamp : this.timestamp});
+        .update({name : this.name, personalInfo : this.personalInfo, email : this.email});
     } else {
       this.store.collection('list')
-        .add({name : this.name, personalInfo : this.personalInfo, email : this.email, timestamp : this.timestamp});
+        .add({name : this.name, personalInfo : this.personalInfo, email : this.email});
     }
     // this.closeDialog();
 
