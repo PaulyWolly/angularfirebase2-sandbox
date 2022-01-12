@@ -2,10 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
 
- - Working demo hosted on Netlify: <a href="https://pw-my-sandbox.netlify.app/" target="_blank">pw-my-sandbox.netlify.app</a> 
+ - Working demo hosted on Netlify: <a href="https://angularfirebase2-sandbox.netlify.app/" target="_blank">angularfirebase2-sandbox.netlify.app</a> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Netlify Status](https://api.netlify.com/api/v1/badges/1f3b5ab7-a56b-477b-be5c-7a25b0b5a7bd/deploy-status)](https://app.netlify.com/sites/pw-my-sandbox/deploys)
-
- - Working demo hosted on Firebase: <a href="https://angularfirebase-sandbox.web.app/" target="_blank">angularfirebase-sandbox.web.app</a> 
 
  - Working demo hosted on AWS using an s3 bucket: <a href="http://angularfirebase-sandbox.s3-website-us-west-1.amazonaws.com/" target="_blank">angularfirebase-sandbox.s3-website-us-west-1.amazonaws.com</a>
 
