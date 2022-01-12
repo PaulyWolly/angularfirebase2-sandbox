@@ -501,7 +501,7 @@ nav.navbar.fixed-bottom {
   button#btnClose.btn-close {
     color: red;
     position: relative;
-    right: 10px;
+    right: 20px;
     float: right;
     bottom: 40px;
   }
@@ -510,9 +510,12 @@ nav.navbar.fixed-bottom {
     height: 65px;
   }
 
-  .dialog-title {
+  h4.dialog-title {
     padding-left: 20px;
-    font-size: 30px;
+    color: #fff;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
   }
 
   .dialog-body {
@@ -521,8 +524,9 @@ nav.navbar.fixed-bottom {
 
   .dialog-footer {
     position: relative;
-    left: 10px;
-    bottom: 10px;
+    left: 60px;
+    margin-bottom: 10px;
+    padding-right: 40px;
   }
 
   .dialog-content {
